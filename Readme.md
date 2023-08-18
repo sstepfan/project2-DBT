@@ -11,3 +11,11 @@
 1. Open the profiles.yml
 2. For the confidentials params/keys replace the value with `"{{ env_var('VAR_NAME') }}"`
 3. Run Command `EXPORT VAR_NAME=<confidential_value>`
+
+
+# References :
+1. How to structure DBT Project : https://towardsdatascience.com/staging-intermediate-mart-models-dbt-2a759ecc1db1
+2. Public dataset Global Climate : https://app.snowflake.com/marketplace/listing/GZSOZ1LLD8/weather-source-llc-global-weather-climate-data-for-bi
+3. Sources YAML : https://docs.getdbt.com/docs/build/sources
+4. Incremental model : https://docs.getdbt.com/docs/build/incremental-models
+5. DBT utils package : https://hub.getdbt.com/dbt-labs/dbt_utils/latest/
